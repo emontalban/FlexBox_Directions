@@ -62,6 +62,26 @@ Parte inferior
 
 👉 Resultado. Todo el espacio es uniforme.
 
+### 🟤 flex-basis
+Define el tamaño inicial que tendrá un elemento flexible antes de que Flexbox reparta el espacio disponible.
+Cada bloque tiene un tamaño inicial diferente. 
+400 + 100 + 200 = 700px
+El contenedor tiene un ancho de 1000px que define el ancho total disponible para los bloques
+
+Los tres bloques están dentro de un contenedor de 1000px.
+
+Flexbox coloca los bloques uno al lado del otro usando como referencia el valor definido en flex-basis.
+
+Cada bloque ocupa exactamente el espacio indicado por su valor:
+
+400px | 100px | 200px
+
+(además del margen que tiene cada uno)
+
+Si un contenedor no tiene suficiente espacio **Flebox** recalcula los tamaños manteniendo la relacion actual
+4 : 1 : 2
+
+
 
 
 
